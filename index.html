@@ -1,83 +1,51 @@
 # Privacy Policy for TradeLink Admin App
 
-**Last Updated:** July 22, 2024
+**Last Updated:** July 22, 2025
 
-This Privacy Policy describes how your information is collected, used, and protected when you use the TradeLink Admin mobile application (“App”).
+At TradeLink, we prioritize the privacy and security of our users. This Privacy Policy outlines how we collect, use, and safeguard your information when you use the TradeLink Admin mobile application (“App”). By accessing and using the App, you agree to the practices described in this policy.
 
-## 1. Information We Collect
+## Information We Collect
 
-To ensure the proper functioning of the App, we may collect the following information:
+To provide a seamless and secure experience, the TradeLink Admin App collects specific information necessary for its functionality. When you sign in, we gather your email address and password through Firebase Authentication to ensure secure access to your account. If you opt to use biometric authentication, such as fingerprint or face recognition, the App utilizes the `local_auth` package to verify your identity locally on your device; your biometric data is neither collected nor stored by TradeLink. For push notifications, we obtain a Firebase Cloud Messaging (FCM) token from your device to deliver timely updates about orders and other critical events. As an admin, you may set a 4-digit security PIN to protect access to sensitive sections, such as the KBZ Details Management page, which is securely stored in Firestore. Additionally, you can manage and store KBZ bank account numbers, KPay QR code images, and associated nicknames, all of which are securely saved in Firestore and Firebase Storage. The App also collects data related to price calculations, including various values and totals, which are stored in Firestore alongside the relevant date. Daily balance calculations you input are similarly stored in Firestore. Lastly, the App retrieves and manages user order information from Firestore, enabling you to view details, update order statuses (e.g., from “pending” to “ongoing”), and upload confirmation screenshots.
 
-**Account Information:** Your email and password are used for secure sign-in via Firebase Authentication.
+## How We Use Your Information
 
-**Biometric Data:** With your explicit consent, the app can check for and use biometric features (fingerprint, face scan) for login purposes, facilitated by the `local_auth` package. Your credentials may be stored securely on your device for this feature.
+The information we collect is used to enhance your experience and ensure the efficient operation of the TradeLink Admin App. Your account details are utilized to authenticate your identity and manage access to the App’s features, ensuring only authorized administrators can perform sensitive tasks. We leverage order-related data to enable you to accept, manage, and complete user orders, verify payments, and communicate confirmations to users. Push notifications keep you informed about new orders, status updates, and promotional messages you may choose to send to all users. The security PIN and other protective measures are employed to safeguard sensitive financial information within the App, providing an additional layer of security for critical operations.
 
-**Device Token:** We collect a Firebase Cloud Messaging (FCM) token from your device to send you push notifications related to orders and other important events.
+## Information Sharing
 
-**Security PIN:** You can set a 4-digit PIN to secure access to sensitive sections of the app, such as the KBZ Details Management page. This PIN is stored in Firestore.
+TradeLink is committed to maintaining the confidentiality of your personal information. We do not sell, trade, or transfer your personally identifiable information to third parties without your explicit consent. However, we may share your information with trusted third-party service providers, such as Firebase (operated by Google), who assist in operating the App and delivering services, provided they adhere to strict confidentiality standards. Additionally, we may disclose your information when required to comply with legal obligations or to protect the rights, safety, or property of TradeLink, its users, or others.
 
-**KBZ Details:** As an admin, you can manage and store KBZ bank account numbers, KPay QR code images, and associated nicknames. This information is saved securely in Firestore and Firebase Storage.
+## Data Security
 
-**Price Manager Data:** Data you input for price calculations, including various values (A, B, C, etc.) and totals, are saved in Firestore, associated with a specific date.
+Protecting your data is a cornerstone of our operations. We utilize the robust security infrastructure of the Firebase platform, including Firebase Authentication, Firestore Security Rules, and Firebase Storage Security Rules, to ensure your information is safeguarded against unauthorized access, loss, or misuse. All communications with Firebase services are encrypted, and we implement reasonable technical and organizational measures to maintain the integrity of your data.
 
-**Balance Data:** Information related to daily balance calculations that you input is stored in Firestore.
+## Changes to Our Privacy Policy
 
-**Order Information:** The app fetches and allows you to manage user orders from Firestore. This includes viewing order details, changing an order's status (e.g., from 'pending' to 'ongoing'), and uploading confirmation screenshots.
-
-## 2. How We Use Your Information
-
-We use the collected information for the following purposes:
-
-**To Authenticate and Manage Access:** To securely sign you into the Admin App and control access to its features.
-
-**To Provide Services:** To enable you to accept, manage, and complete user orders, verify payments, and send confirmation details back to users.
-
-**To Send Notifications:** To deliver important alerts regarding new orders, status changes, and promotional notifications you send to all users.
-
-**To Enhance Security:** To protect sensitive financial data within the app by requiring PIN verification for access.
-
-## 3. Information Sharing
-
-We do not sell, trade, or otherwise transfer your personally identifiable information to outside parties without your consent. This does not include trusted third parties who assist us in operating our application or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is appropriate to comply with the law.
-
-## 4. Data Security
-
-We are committed to protecting your data. We leverage the robust security features of the Firebase platform, including Firebase Authentication, Firestore Security Rules, and Firebase Storage Security Rules, to help safeguard your information.
-
-## 5. Changes to Our Privacy Policy
-
-If we decide to change our privacy policy, we will update the policy modification date above. We may notify you through the app or by other means of any significant changes.
+We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. Any updates will be indicated by revising the “Last Updated” date at the top of this policy. Significant changes will be communicated to you through the App or other appropriate channels, ensuring you remain informed of how your information is handled.
 
 ---
 
 # Terms of Use for TradeLink Admin App
 
-These terms and conditions outline the rules and regulations for the use of the TradeLink Admin App.
+These Terms of Use govern your access to and use of the TradeLink Admin App. By using the App, you agree to comply with these terms and conditions.
 
-## 1. Acceptance of Terms
+## Acceptance of Terms
 
-By accessing and using this App, you accept and agree to be bound by the terms and provisions of this agreement.
+By accessing or using the TradeLink Admin App, you acknowledge and agree to be bound by the terms outlined in this agreement. These terms constitute a binding contract between you and TradeLink, governing your use of the App’s features and services.
 
-## 2. Authorized Use
+## Authorized Use
 
-This App is strictly for use by authorized administrators of TradeLink. Access is controlled via Firebase Authentication, and users must have an 'admin' role to use the services.
+The TradeLink Admin App is exclusively designed for use by authorized administrators of TradeLink. Access is strictly controlled through Firebase Authentication, requiring users to have an “admin” role to utilize the App’s services. Unauthorized access or use is strictly prohibited.
 
-## 3. Administrator Responsibilities
+## Administrator Responsibilities
 
-You are responsible for the accurate and timely management of all user orders processed through the App.
+As an administrator, you are responsible for the accurate and timely management of all user orders processed through the App. You must maintain the confidentiality of all user data you access, including payment screenshots and personal details, to protect user privacy. Additionally, you are solely responsible for securing your account credentials, including your email, password, and 4-digit security PIN, to prevent unauthorized access to the App.
 
-You must maintain the confidentiality of all user data you have access to, including but not limited to payment screenshots and personal details.
+## Prohibited Activities
 
-You are solely responsible for maintaining the security of your account credentials (email, password) and your 4-digit security PIN.
+The TradeLink Admin App must not be used for any illegal or unauthorized purposes. You are prohibited from interfering with or disrupting the App’s functionality, integrity, or data. Sharing user data with unauthorized third parties is strictly forbidden, and any such actions may result in immediate termination of your access to the App.
 
-## 4. Prohibited Activities
+## Disclaimer of Liability
 
-You may not use this App for any illegal or unauthorized purpose.
-
-You must not interfere with or disrupt the integrity or performance of the App or the data contained therein.
-
-You are prohibited from sharing user data with any unauthorized third party.
-
-## 5. Disclaimer of Liability
-
-TradeLink will not be held liable for any losses or damages arising from your failure to comply with these terms, including losses resulting from technical failures or your own negligence in managing account security.
+TradeLink shall not be liable for any losses or damages resulting from your failure to comply with these Terms of Use. This includes, but is not limited to, losses arising from technical failures, unauthorized access due to negligence in securing your account, or any misuse of the App’s features.
